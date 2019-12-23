@@ -1,2 +1,7 @@
 # gent-pcbmode-v5-test
-Boards to test and update with cinco-master development
+
+While develping in `cinco-master`, update this repository.
+
+## License
+
+MIT. See LICENSE.
