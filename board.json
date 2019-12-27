@@ -1,0 +1,331 @@
+{
+  "metadata":
+  {
+    "project-name": "gent-pcbmode-v5-test",
+    "revision": "1",
+    "design-by": "Saar Drimer",
+    "organisation": "Boldport",
+    "contact-email": "saar@boldport.com",
+    "license": "MIT",
+    "license-url": "https://mit-license.org/"
+  },
+  "project-params":
+  {
+    "input":
+    {
+      "routing-file": "board-routing.json",
+      "svg-file": "build/gent-pcbmode-v5-test.svg"
+    },
+    "output":
+    {
+      "svg-file": "build/gent-pcbmode-v5-test.svg",
+      "gerber-preamble": "build/prod/gent-pcbmode-v5-test_"
+    },
+    "units": "mm",
+    "stackup": "two-layer",
+    "default-via-name": "default-via",
+    "styles":
+    {
+      "layout": "default"
+    }
+  },
+  "components": {
+    "B1": {
+      "footprint": "CR2032-battery-holder-smd", 
+      "layer": "bottom", 
+      "location": [
+        -1.358349, 
+        -2.374175
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "location": [
+            0, 
+            0
+          ], 
+          "show": false
+        }, 
+        "shapes": {
+          "show": true
+        }
+      }
+    }, 
+    "LED10": {
+      "footprint": "led-5mm-pt", 
+      "layer": "top", 
+      "location": [
+        31.795214, 
+        4.023917
+      ], 
+      "rotate": -90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "M1": {
+      "footprint": "monocole", 
+      "layer": "top", 
+      "location": [
+        33.488546, 
+        8.306667
+      ], 
+      "rotate": -90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "M2": {
+      "footprint": "tounge", 
+      "layer": "bottom", 
+      "location": [
+        38.72976, 
+        -3.065427
+      ], 
+      "rotate": 90, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R1": {
+      "footprint": "flat-resistor-special", 
+      "layer": "bottom", 
+      "location": [
+        20.601767, 
+        -1.930432
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R2": {
+      "footprint": "flat-resistor", 
+      "layer": "bottom", 
+      "location": [
+        -27.230374, 
+        -0.270876
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R3": {
+      "footprint": "flat-resistor", 
+      "layer": "bottom", 
+      "location": [
+        -23.542456, 
+        -0.270876
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R4": {
+      "footprint": "side-resistor", 
+      "layer": "top", 
+      "location": [
+        -15.361679, 
+        -7.688811
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "R5": {
+      "footprint": "side-resistor", 
+      "layer": "top", 
+      "location": [
+        12.973808, 
+        -8.047193
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "RP": {
+      "footprint": "resistor-pack", 
+      "layer": "bottom", 
+      "location": [
+        -3.636335, 
+        8.219261
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "SW1": {
+      "footprint": "switch", 
+      "layer": "bottom", 
+      "location": [
+        29.315259, 
+        -4.134893
+      ], 
+      "rotate": 0, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }, 
+    "T1": {
+      "footprint": "bjt-to92-space", 
+      "layer": "bottom", 
+      "location": [
+        -33.763476, 
+        -7.080292
+      ], 
+      "rotate": 180, 
+      "show": true, 
+      "silkscreen": {
+        "refdef": {
+          "show": false
+        }
+      }
+    }
+  }, 
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -26.493447, 
+        -20.144655
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Board details:\nName: The Gent for testing PCBmodE v5 (Cinco)\nRevision: 1\nDescription: A chameleon shaped fun soldering kit \nLicense: MIT \nCompany: Boldport\nDesigner: Saar Drimer, saar@boldport.com"
+    }, 
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont", 
+      "font-size": "1.5mm", 
+      "letter-spacing": "0mm", 
+      "line-height": "1.5mm", 
+      "location": [
+        -19.577785, 
+        -36.116964
+      ], 
+      "rotate": 0, 
+      "style": "fill", 
+      "type": "text", 
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nSilkscreen: top, bottom, white\nSoldermask: top (blue and green), bottom (green)\nSurface finish: any lead free / RoHS\n\n* For the top side use two soldermask colours. Use\n     ...top_soldermask_green.ger for green soldermask\n     ...top_soldermask_blue.ger for blue soldermask.\n* Do not add any markings withough approval"
+    }
+  }, 
+  "drill-index": {
+    "location": [
+      43.295852, 
+      -6.3958049
+    ]
+  }, 
+  "drills": {}, 
+  "outline": {
+    "shape": {
+      "type": "path", 
+      "value": "m -23.322269,-10.602876 c 9.066461,-2.465412 19.442406,-2.061597 27.457534,-2.258901 7.238693,-0.178191 9.494707,1.133848 13.678864,4.3239373 0.738971,0.36923 0.830553,-0.4415591 0.726128,-0.7595053 -0.195775,-1.068602 -0.546474,-1.718748 -1.330759,-3.199118 -0.165718,-0.237501 0.0056,-0.524129 0.268071,-0.492077 3.208021,-0.09787 9.522027,0.389353 13.288669,1.918872 1.165238,0.473167 2.307456,-0.251058 4.25869,0.874769 0.799049,0.4610364 1.431637,1.0935507 1.700703,1.9573687 0.209826,0.6736337 0.711985,1.5780975 1.198308,2.142304 1.89198,2.1949767 3.279523,5.0193252 3.806718,8.6160621 -1.19238,6.084285 -10.192427,9.9874832 -15.603381,10.1535512 -5.445089,0.300741 -3.664206,-2.594737 -8.885295,-0.772778 -1.870106,1.092605 -30.096787,2.328583 -34.792166,-1.4808 -1.250482,-1.0145219 -2.563573,-2.0924971 -4.138069,-1.1292804 -1.760228,1.0768404 -0.28494,2.9703704 -10.907861,3.4013574 -10.622922,0.430987 -11.097984,-15.3077588 -5.929685,-19.1021288 5.963254,-4.3779962 10.95949,-3.0395648 15.203531,-4.1936332 z"
+    }
+  }, 
+  "shapes": {
+    "BPL": {
+      "footprint": "boldport-logo-b", 
+      "layer": "bottom", 
+      "location": [
+        22.379667, 
+        8.70253
+      ], 
+      "scale": 0.6, 
+      "show": true
+    }, 
+    "GENT": {
+      "footprint": "the-gent", 
+      "layer": "bottom", 
+      "location": [
+        17.542647, 
+        -1.382459
+      ], 
+      "rotate": -90, 
+      "show": true
+    },
+    "INFO": {
+      "footprint": "pcbmode", 
+      "layer": "bottom", 
+      "location": [
+        28.539346, 
+        -9.600791
+      ], 
+      "show": true
+    }, 
+    "POURS": {
+      "footprint": "pours", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": true
+    }, 
+    "SM-BLUE": {
+      "footprint": "sm-blue", 
+      "layer": "top", 
+      "location": [
+        13.468718, 
+        0.012473
+      ], 
+      "show": true
+    }, 
+    "SM-GREEN": {
+      "footprint": "sm-green", 
+      "layer": "top", 
+      "location": [
+        -11.828391, 
+        -0.099781
+      ], 
+      "show": true
+    },
+    "SS-OUTLINE": {
+      "footprint": "ss-top-outline", 
+      "layer": "top", 
+      "location": [
+        0, 
+        0
+      ], 
+      "show": true
+    }
+  }
+}
