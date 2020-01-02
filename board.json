@@ -2,11 +2,15 @@
   "metadata":
   {
     "project-name": "gent-pcbmode-v5-test",
+    "title": "The Gent",
+    "description": "A version of The Gent for testing PCBmodE v2, cinco",
     "revision": "1",
-    "design-by": "Saar Drimer",
+    "creator": "Saar Drimer",
+    "contributors": [],
     "organisation": "Boldport",
     "contact-email": "saar@boldport.com",
     "license": "MIT",
+    "keywords": [],
     "license-url": "https://mit-license.org/"
   },
   "project-params":
