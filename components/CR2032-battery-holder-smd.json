@@ -79,7 +79,6 @@
           "rotate": 135,
           "soldermask": {
             "type": "circle",
-            "style": "fill",
             "scale": 1,
             "diameter": 11 
           }
