@@ -1,78 +1,82 @@
 {
-"pins":
-  {
-  "1":
-    {	
-      "layout": 
-      {
-        "pad": "th", 
-        "location": [-1.2, 0]
+  "pins": {
+    "1": {
+      "layout": {
+        "pad": "th",
+        "location": [
+          -1.2,
+          0
+        ]
       }
     },
-  "2":
-    {	
-      "layout": 
-      {
-        "pad": "pad", 
-        "location": [1.2, 0]
+    "2": {
+      "layout": {
+        "pad": "pad",
+        "location": [
+          1.2,
+          0
+        ]
       }
     }
   },
-  "layout":
-  {
-    "silkscreen":
-    {
-      "shapes":
-      [
-      ]
+  "layout": {
+    "silkscreen": {
+      "shapes": []
     },
-    "assembly":
-    {
-      "shapes":
-      [
-      ]
+    "assembly": {
+      "shapes": []
     }
   },
-  "pads":
-  {
-    "th":
-    {
-      "shapes":
-      [
+  "pads": {
+    "th": {
+      "shapes": [
         {
           "type": "rect",
-	  "layers": ["top","bottom"],
+          "layers": [
+            "top",
+            "bottom"
+          ],
           "width": 1.5,
           "height": 3,
-          "location": [0,0],
-          "radii": {"tl": 0.3, "tr": 0.3, "bl": 0.3, "br": 0.3}
+          "radii": {
+            "tl": 0.3,
+            "tr": 0.3,
+            "bl": 0.3,
+            "br": 0.3
+          }
         },
         {
           "type": "circle",
-	  "layers": ["top","bottom"],
+          "layers": [
+            "top",
+            "bottom"
+          ],
           "outline": 0,
-          "diameter": 1.5,
-          "offset": [0, 0] 
+          "diameter": 1.5
         }
       ],
-      "drills":
-      [
+      "drills": [
         {
-          "diameter": 0.5
+          "diameter": 0.6
         }
       ]
     },
-    "pad":
-    {
-      "shapes":
-      [
+    "pad": {
+      "shapes": [
         {
           "type": "rect",
-	  "layers": ["top","bottom"],
+          "layers": [
+            "top",
+            "bottom"
+          ],
           "width": 1.5,
           "height": 3,
-          "location": [0,0],
-          "radii": {"tl": 0.3, "tr": 0.3, "bl": 0.3, "br": 0.3}
+          "radii": {
+            "tl": 0.3,
+            "tr": 0.3,
+            "bl": 0.3,
+            "br": 0.3
+          }
         }
       ]
     }
