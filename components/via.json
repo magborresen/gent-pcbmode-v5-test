@@ -1,34 +1,33 @@
 {
-"pins":
-  {
-  "VIA":
-    {	
-      "layout": 
-      {
-        "pad": "via", 
-        "location": [0, 0]
+  "pins": {
+    "VIA": {
+      "layout": {
+        "pad": "via",
+        "location": [
+          0,
+          0
+        ]
       }
     }
   },
-  "pads":
-  {
-    "via":
-    {
-      "shapes":
-      [
-	{
+  "pads": {
+    "via": {
+      "shapes": [
+        {
           "type": "circle",
-	  "layers": ["top", "internal", "bottom"],
-	  "style": "fill",
+          "layers": [
+            "top",
+            "internal",
+            "bottom"
+          ],
           "diameter": 0.87,
           "buffer-to-pour": 0.125,
           "soldermask": {}
         }
       ],
-      "drills":
-      [
+      "drills": [
         {
-          "diameter": 0.50
+          "diameter": 0.5
         }
       ]
     }
