@@ -1,10 +1,10 @@
 {
   "create":
   {
-    "docs": false, 
+    "docs": true, 
     "drill-index": true, 
     "flashes": true, 
-    "layer-index": false
+    "layer-index": true
   },
   "styles":
   {
