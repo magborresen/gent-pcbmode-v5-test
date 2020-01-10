@@ -1,15 +1,14 @@
 {
-  "layout":
-  {
-    "pours":
-    {
-      "shapes":
-      [
+  "layout": {
+    "pours": {
+      "shapes": [
         {
-	  "type": "layer",
-          "layers": ["bottom"]
+          "type": "layer",
+          "layers": [
+            "bottom"
+          ]
         }
       ]
     }
-  }  
+  }
 }

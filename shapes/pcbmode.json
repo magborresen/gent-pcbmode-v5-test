@@ -1,25 +1,21 @@
 {
-  "layout":
-  {
-    "silkscreen":
-    {
-      "shapes":
-      [
+  "layout": {
+    "silkscreen": {
+      "shapes": [
         {
-          "font-family": "Overlock-Regular-OTF-webfont", 
-          "font-size": "1.4mm", 
-          "letter-spacing": "0mm", 
-          "line-height": "4.3mm", 
+          "font-family": "Overlock-Regular-OTF-webfont",
+          "font-size": "1.4mm",
+          "letter-spacing": "0mm",
+          "line-height": "4.3mm",
           "location": [
-            0, 
+            0,
             0
-          ], 
-          "rotate": 0, 
-          "style": "fill", 
-          "type": "text", 
+          ],
+          "rotate": 0,
+          "type": "text",
           "value": "Go PCBmodE! :)"
         }
       ]
     }
-  }  
+  }
 }
