@@ -44,12 +44,7 @@
           ],
           "width": 1.5,
           "height": 3,
-          "radii": {
-            "tl": 0.3,
-            "tr": 0.3,
-            "bl": 0.3,
-            "br": 0.3
-          }
+          "border-radius": [0.3]
         },
         {
           "type": "circle",
@@ -76,12 +71,7 @@
           ],
           "width": 1.5,
           "height": 3,
-          "radii": {
-            "tl": 0.3,
-            "tr": 0.3,
-            "bl": 0.3,
-            "br": 0.3
-          }
+          "border-radius": [0.3]
         }
       ]
     }

@@ -3,51 +3,33 @@
     "1-LED": {
       "layout": {
         "pad": "long",
-        "location": [
-          0,
-          0
-        ]
+        "location": [0, 0]
       }
     }
   },
-  "layout": {
-  },
+  "layout": {},
   "pads": {
     "long": {
       "shapes": [
         {
           "type": "circle",
-          "layers": [
-            "top"
-          ],
+          "layers": ["top"],
           "outline": 0,
           "diameter": 1.9
         },
         {
           "type": "circle",
-          "layers": [
-            "bottom"
-          ],
+          "layers": ["bottom"],
           "outline": 0,
           "diameter": 1.9
         },
         {
           "type": "rect",
-          "layers": [
-            "bottom"
-          ],
+          "layers": ["bottom"],
           "width": 1.9,
           "height": 6.5,
-          "location": [
-            0,
-            3.25
-          ],
-          "radii": {
-            "tl": 0.3,
-            "tr": 0.3,
-            "bl": 0,
-            "br": 0
-          }
+          "location": [0, 3.25],
+          "border-radius": [0.3, 0.3, 0, 0]
         }
       ],
       "drills": [
