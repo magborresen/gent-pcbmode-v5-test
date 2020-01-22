@@ -76,7 +76,7 @@
           "type": "rect",
           "scale": 1,
           "layers": ["top"],
-          "border-radius": [0.35, 0, 0.35, 0],
+          "border-radius": [0.35, 0, 0, 0.35],
           "buffer-to-pour": 0.5,
           "width": 5,
           "height": 5
