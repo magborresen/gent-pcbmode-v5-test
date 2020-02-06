@@ -70,13 +70,11 @@
         {
           "type": "circle",
           "layers": ["top"],
-          "outline": 0,
           "diameter": 1.9
         },
         {
           "type": "circle",
           "layers": ["bottom"],
-          "outline": 0,
           "diameter": 1.9
         },
         {
