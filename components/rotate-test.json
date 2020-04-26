@@ -25,7 +25,7 @@
           "width": 1,
           "location": [0, 0],
           "rotate": 0,
-          "rotate-point": [0, 5],
+          "rotate-origin": [0, 0],
           "border-radius": [0.25, 0, 0, 0]
         },
         {
@@ -34,7 +34,7 @@
           "width": 1,
           "location": [0, 0],
           "rotate": 20,
-          "rotate-point": [0, 5],
+          "rotate-origin": [0, 10],
           "border-radius": [0.25, 0, 0, 0]
         },
         {
@@ -43,7 +43,7 @@
           "width": 1,
           "location": [0, 0],
           "rotate": 40,
-          "rotate-point": [0, 5],
+          "rotate-origin": [0, 0],
           "border-radius": [0.25, 0, 0, 0]
         }
       ]
