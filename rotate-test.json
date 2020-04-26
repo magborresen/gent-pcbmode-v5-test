@@ -1,0 +1,93 @@
+{
+  "metadata": {
+    "project-id": "rotate-test",
+    "title": "The Gent",
+    "description": "A version of The Gent for testing PCBmodE v5, cinco",
+    "revision": "1",
+    "creator": "Saar Drimer, Boldport",
+    "contributors": "Name11 Name12, Name21 Name 22 Name 23",
+    "contact-email": "saar@boldport.com",
+    "sourcecode-url": "https://github.com/boldport/gent-pcbmode-v5-test",
+    "license-name": "MIT",
+    "license-url": "https://mit-license.org/",
+    "license-text": "",
+    "keywords": "keyword1, keyword2, keyword3",
+    "date": "now"
+  },
+  "project-params": {
+    "input": {
+      "routing-file": "no-routing.json",
+      "svg-file": "build/rotate-test.svg"
+    },
+    "output": {
+      "svg-file": "build/rotate-test.svg",
+      "gerber-preamble": "build/prod/rotate-test_"
+    },
+    "units": "mm",
+    "stackup": "two-layer",
+    "default-via-name": "default-via",
+    "styles": {
+      "layout": "default"
+    }
+  },
+  "components": {
+    "B1-0": {
+      "footprint": "rotate-test",
+      "layer": "top",
+      "location": [-10, 0],
+      "rotate": 0,
+      "show": false
+    },
+    "B1-5": {
+      "footprint": "rotate-test",
+      "layer": "top",
+      "location": [-10, 0],
+      "rotate": 0,
+      "show": true
+    },
+    "B2": {
+      "footprint": "rotate-test",
+      "layer": "bottom",
+      "location": [10, 0],
+      "rotate": 0,
+      "show": true
+    }
+  },
+  "documentation": {
+    "board-details": {
+      "font-family": "Overlock-Regular-OTF-webfont",
+      "font-size": "1.5mm",
+      "letter-spacing": "0mm",
+      "line-height": "1.5mm",
+      "location": [-26.493447, -20.144655],
+      "rotate": 0,
+      "style": "fill",
+      "type": "text",
+      "value": "Board details:\nName: The Gent for testing PCBmodE v5 (Cinco)\nRevision: 1\nDescription: A chameleon shaped fun soldering kit \nLicense: MIT \nCompany: Boldport\nDesigner: Saar Drimer, saar@boldport.com"
+    },
+    "manufacturing": {
+      "font-family": "Overlock-Regular-OTF-webfont",
+      "font-size": "1.5mm",
+      "letter-spacing": "0mm",
+      "line-height": "1.5mm",
+      "location": [-19.577785, -36.116964],
+      "rotate": 0,
+      "style": "fill",
+      "type": "text",
+      "value": "Manufacturing:\nRoHS and lead free compliant manufacturing process\nUnit of length: Millimetre (mm)\nNumber of layers: 2 ('top', 'bottom')\nBoard thickness: 1.6 mm\nSilkscreen: top, bottom, white\nSoldermask: top (blue and green), bottom (green)\nSurface finish: any lead free / RoHS\n\n* For the top side use two soldermask colours. Use\n     ...top_soldermask_green.ger for green soldermask\n     ...top_soldermask_blue.ger for blue soldermask.\n* Do not add any markings withough approval"
+    }
+  },
+  "drill-index": {
+    "location": [43.295852, -6.3958049]
+  },
+  "drills": {},
+  "outline": {
+    "shape": {
+      "type": "rect",
+      "style": "stroke-width:0.05;",
+      "width": 100,
+      "height": 100
+    }
+  },
+  "shapes": {}
+}

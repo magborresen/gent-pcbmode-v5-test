@@ -1,0 +1,52 @@
+{
+  "pins": {
+    "1": {
+      "layout": {
+        "pad": "pad",
+        "location": [0, 0],
+        "rotate": 0
+      }
+    }
+    },
+  "layout": {
+    "silkscreen": {
+      "shapes": []
+    },
+    "assembly": {
+      "shapes": []
+    }
+  },
+  "pads": {
+    "pad": {
+      "shapes": [
+        {
+          "type": "rect",
+          "height": 1,
+          "width": 1,
+          "location": [0, 0],
+          "rotate": 0,
+          "rotate-point": [0, 5],
+          "border-radius": [0.25, 0, 0, 0]
+        },
+        {
+          "type": "rect",
+          "height": 1,
+          "width": 1,
+          "location": [0, 0],
+          "rotate": 20,
+          "rotate-point": [0, 5],
+          "border-radius": [0.25, 0, 0, 0]
+        },
+        {
+          "type": "rect",
+          "height": 1,
+          "width": 1,
+          "location": [0, 0],
+          "rotate": 40,
+          "rotate-point": [0, 5],
+          "border-radius": [0.25, 0, 0, 0]
+        }
+      ]
+    }
+  }
+}
