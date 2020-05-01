@@ -42,7 +42,7 @@
       "footprint": "rotate-test",
       "layer": "top",
       "location": [-10, 0],
-      "rotate": 0,
+      "rotate": 10,
       "show": true
     },
     "B2": {
@@ -82,12 +82,14 @@
   },
   "drills": {},
   "outline": {
-    "shape": {
-      "type": "rect",
-      "style": "stroke-width:0.05;",
-      "width": 100,
-      "height": 100
-    }
+    "shapes": [
+      {
+        "type": "rect",
+        "style": "stroke-width:0.05;",
+        "width": 100,
+        "height": 100
+      }
+    ]
   },
   "shapes": {}
 }
