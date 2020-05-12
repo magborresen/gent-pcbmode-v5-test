@@ -8,37 +8,21 @@
       "show-instance-name": true
     }
   },
-  "layout": {
-    "silkscreen": {
-      "shapes": []
-    },
-    "assembly": {
-      "shapes": []
-    }
-  },
   "definitions": {
     "pad": {
       "shapes": [
         {
-          "type": "rect",
+          "place-in-foil": "conductor",
+          "place-in-layers": "all",
+          "shape-type": "rect",
           "height": 1,
           "width": 1,
           "transform": "translate(0, 0) rotate(0,0,10)",
-          "border-radius": [0.25, 0, 0, 0]
-        },
-        {
-          "type": "rect",
-          "height": 1,
-          "width": 1,
-          "transform": "translate(0, 0) rotate(20,0,10)",
-          "border-radius": [0.25, 0, 0, 0]
-        },
-        {
-          "type": "rect",
-          "height": 1,
-          "width": 1,
-          "transform": "translate(0, 0) rotate(40,0,10)",
-          "border-radius": [0.25, 0, 0, 0]
+          "border-radius": [0.25, 0, 0, 0],
+          "add": {
+            "soldermask": "default",
+            "solderpaste": "default"
+          }
         }
       ]
     }

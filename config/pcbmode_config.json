@@ -20,14 +20,14 @@
       "route": 0.2
     }, 
     "soldermask": {
-      "circle-buffer": 0.06, 
-      "path-scale": 1.05, 
-      "rect-buffer": 0.06
+      "circle": 0.06, 
+      "path": 1.05, 
+      "rect": 0.06
     }, 
     "solderpaste": {
-      "circle-buffer": -0.1, 
-      "path-scale": 0.9, 
-      "rect-buffer": -0.1
+      "circle": -0.1, 
+      "path": 0.9, 
+      "rect": -0.1
     }
   },
   "gerber": {
