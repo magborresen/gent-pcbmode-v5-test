@@ -32,7 +32,7 @@
   },
   "instances": {
     "OUTLINE": {
-      "instance-type": "outline",
+      "place-in-foil": "outline",
       "definition-here": {
         "shapes": [
           {

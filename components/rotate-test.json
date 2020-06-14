@@ -12,7 +12,7 @@
     "pad": {
       "shapes": [
         {
-          "place-in-foil": "conductor",
+          "place-in-foils": ["conductor"],
           "place-in-layers": "all",
           "shape-type": "rect",
           "height": 1,
@@ -25,7 +25,7 @@
           }
         },
         {
-          "place-in-foil": "conductor",
+          "place-in-foils": ["conductor"],
           "place-in-layers": "all",
           "shape-type": "path",
           "value": "m -0.5,-0.25 c 0,-0.138071 0.111929,-0.25 0.25,-0.25 L 0.754517,-0.82432295 1.0672782,-0.08020061 0.5,0.5 0.46362022,1.155912 -0.5,0.5 Z",
@@ -34,7 +34,7 @@
             "soldermask": "default",
             "solderpaste": "default"
           }
-        }        
+        }
       ]
     }
   }
