@@ -9,20 +9,20 @@
   "stackup": {},
   "distances": {
     "from-pour-to": {
-      "drill": 0.4,
-      "outline": 0.2,
+      "outline": 0.5,
+      "drill": 1.0,
       "pad": 0.2,
-      "route": 0.2
+      "route": 0.25
     },
     "soldermask": {
-      "circle": 0.06,
       "path": 1.05,
-      "rect": 0.06
+      "rect": 0.05,
+      "circle": 0.05
     },
     "solderpaste": {
-      "circle": -0.1,
       "path": 0.9,
-      "rect": -0.1
+      "rect": -0.1,
+      "circle": -0.1
     }
   },
   "gerber": {

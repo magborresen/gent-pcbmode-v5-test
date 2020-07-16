@@ -30,9 +30,10 @@
       "layout": "default"
     }
   },
+  "transform": "translate(10,10) rotate(0)",
   "instances": {
     "OUTLINE": {
-      "place-in-foil": "outline",
+      "place-in": ["outline"],
       "definition-here": {
         "shapes": [
           {
@@ -46,25 +47,11 @@
         ]
       }
     },
-    "B1-0": {
-      "instance-type": "component",
-      "definition-file": "components/rotate-test.json",
-      "placement-layer": "top",
-      "transform": "translate(-10, 0) rotate(0)",
-      "place-instance": false
-    },
-    "B1-5": {
-      "instance-type": "component",
-      "definition-file": "components/rotate-test.json",
-      "placement-layer": "top",
-      "transform": "translate(-10, 0) rotate(0)",
-      "place-instance": true
-    },
     "B2": {
       "instance-type": "component",
       "definition-file": "components/rotate-test.json",
-      "placement-layer": "bottom",
-      "transform": "translate(10, 0) rotate(0)",
+      "place-in": ["top"],
+      "transform": "translate(1, 1) rotate(0)",
       "place-instance": true
     }
   },
