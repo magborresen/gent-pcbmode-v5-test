@@ -1,8 +1,8 @@
 {
   "instances": {
-    "1": {
+    "5": {
       "definition-name": "pad",
-      "transform": "translate(2, 2) rotate(0)",
+      "transform": "translate(0,0) rotate(45)",
       "show-instance": true,
       "instance-name": "jack",
       "show-instance-name": true
@@ -16,7 +16,37 @@
           "shape-type": "rect",
           "height": 1,
           "width": 1,
-          "transform": "translate(3,3) rotate(0,0,0)",
+          "transform": "translate(-1,1) rotate(0)",
+          "border-radius": [0.25, 0, 0, 0],
+          "soldermask-in": ["*/soldermask"],
+          "solderpaste-in": ["*/solderpaste"]
+        },
+        {
+          "place-in": ["*/conductor/pads"],
+          "shape-type": "rect",
+          "height": 1,
+          "width": 1,
+          "transform": "translate(1,1) rotate(90)",
+          "border-radius": [0.25, 0, 0, 0],
+          "soldermask-in": ["*/soldermask"],
+          "solderpaste-in": ["*/solderpaste"]
+        },
+        {
+          "place-in": ["*/conductor/pads"],
+          "shape-type": "rect",
+          "height": 1,
+          "width": 1,
+          "transform": "translate(1,-1) rotate(180)",
+          "border-radius": [0.25, 0, 0, 0],
+          "soldermask-in": ["*/soldermask"],
+          "solderpaste-in": ["*/solderpaste"]
+        },
+        {
+          "place-in": ["*/conductor/pads"],
+          "shape-type": "rect",
+          "height": 1,
+          "width": 1,
+          "transform": "translate(-1,-1) rotate(270)",
           "border-radius": [0.25, 0, 0, 0],
           "soldermask-in": ["*/soldermask"],
           "solderpaste-in": ["*/solderpaste"]
