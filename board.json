@@ -262,7 +262,7 @@
   }, 
   "drills": {}, 
   "outline": {
-    "shapes": [
+    "shape": [
       {
         "type": "path",
         "style": "stroke-width:0.05;fill:none;",
